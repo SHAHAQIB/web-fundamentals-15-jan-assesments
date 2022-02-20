@@ -1,0 +1,12 @@
+body{
+    background-repeat: no-repeat;
+}
+img{
+    width: 4000px;
+    height: 150px;
+}
+.head{
+    display:flex;
+    justify-content: space-between;
+    
+}
