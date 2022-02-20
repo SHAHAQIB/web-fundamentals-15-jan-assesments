@@ -1,0 +1,15 @@
+table{
+    width: 100%;
+ }
+ th{
+     background-color: red;
+ }
+ tr:nth-child(2n){
+     background-color: green;
+ }
+ tr:nth-child(2n+1){
+     background-color: yellow;
+ }
+ tr:nth-child(3n){
+     background-color:blue;
+ }
