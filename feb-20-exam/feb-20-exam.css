@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    background-color: rgb(67, 162, 225);
+    border: 2px solid black;
+    text-align: center;
+    zoom: 100%;
+}
+.wrapper{
+    background-color: #9BFF9A;
+    border: 2px solid black;
+    text-align: center;
+    margin: 4vh;
+}
+.container1{
+    background-color: #F0EFFF;
+    border: 2px solid black;
+    text-align: center;
+    margin: 2px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.header{
+    background-color: #FEEE99;
+    border: 2px solid black;
+    text-align: center;
+    margin: 2px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.navigation{
+    background-color: #EECCFF;
+    border: 2px solid black;
+    text-align: center;
+    margin: 2px; 
+    margin-left: 2%;
+    margin-right: 2%;  
+}
+.container2{
+    background-color: rgb(232, 236, 0);
+    border: 2px solid black;
+    text-align: center;
+    margin: 2px;
+    display: inline-block;
+}
+.content{
+    background-color: #F6EEEC;
+    border: 2px solid black;
+    text-align: center; 
+    margin: 4vh; 
+    padding-top: 1.5vh;
+    float: left;
+}
+.float-right{
+    background-color: #F6EEEC;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 1.5vh;
+    margin: 4vh; 
+    float: right;
+}
+.footer{
+    background-color: #EEFFED;
+    border: 2px solid black;
+    text-align: center;
+    margin: 4vh; 
+}
+h2{
+    border: 2px solid black;
+    display: inline-block;
+    background-color:#FEF102;
+    padding: 1vh 5vh 1vh 6vh;
+}
+#h2{
+    width: 34vh;
+}
+.contr{
+    display: block;
+}
+h1{
+    border: 2px solid black;
+    margin: 1vh 2vh 0vh 2vh;
+    background-color:#9BFF9A;
+    padding: 1vh 5vh 1vh 6vh;
+}
+#cls{
+    background-color: yellow;
+    font-weight: bold;
+    margin-left: 42%;
+    margin-right: 42%;  
+    height: 50px;
+    border: 2px solid black;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+#wrp{
+    background-color: yellow;
+    font-weight: bold;
+    margin-left: 42%;
+    margin-right: 42%;  
+    height: 50px;
+    border: 2px solid black;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+#lend{
+    background-color: yellow;
+    margin-left: 30%;
+    float: left;
+    border: 2px solid black;
+}
+#rend{
+    background-color: yellow;
+    float: right;
+    margin-right: 30%;
+    border: 2px solid black;
+}
