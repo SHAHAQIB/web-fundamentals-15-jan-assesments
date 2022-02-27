@@ -1,0 +1,47 @@
+form
+{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    right: 5px;    
+}
+
+.chat
+{
+    height: 280px;
+    overflow-y: scroll;
+    
+}
+{
+.chat [type=name]
+    border: none;
+    ba
+}
+.message{
+  width: 3px;
+  margin-top:-1%;
+}
+.message [type=name]
+{
+    width: 313.5px;
+    padding: 9px;
+    border-bottom: none;
+    border-left: none;
+}
+.add
+{
+    display: flex;
+}
+.add > #emoji:hover
+{
+    cursor: pointer;
+    background-color: rgb(197, 185, 185);
+}
+.chat [type=name]
+{
+    border-radius: 27px;
+    background: rgb(23, 77, 255);
+    padding: 44px;
+    color: white;
+    font-weight: bolder;
+}
