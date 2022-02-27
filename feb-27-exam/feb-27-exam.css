@@ -1,0 +1,114 @@
+*{
+    min-height: 60px;
+    min-width: 160px;
+    top: 10%;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 300px;
+}
+form{
+    background-color: rgb(252, 252, 252);
+    position: fixed;
+  
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.one{
+    display: flex;
+    background-color: red;
+    align-items: center;
+    width:360px;
+}
+.one h4{
+    font-size: 29px;
+    margin-left: 180px;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+}
+.two{
+    display: flex;
+    background-color: yellow;
+    width: 300px;
+}
+.two h4{
+    font-size: 29px;
+    margin-left: 110px;
+}
+.four{
+    display: flex;
+    background-color: green;
+    width: 300px; 
+}
+.four h4{
+    font-size: 29px;
+    margin-left: 110px;
+}
+.three{
+    display: flex;
+    background-color: palevioletred;
+    align-items: center;
+    width: 1px;
+}
+.three  h4{
+    font-size: 29px;
+    margin-left: 35px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.first{
+    display: flex;
+    flex-direction: column;   
+}
+.topfirst{
+    display: flex;
+    flex-direction: row;
+}
+.five{
+    display: flex;
+    background-color: orange;
+    width: 460px;
+}
+.five h4{
+    font-size: 29px;
+    margin-left: 210px;
+}
+.six{
+    display: flex;
+    background-color: rgb(41, 216, 247);
+    width: 30px;
+}
+.six h4{
+    font-size: 29px;
+    margin-left: 59px;
+}
+.eight{
+    display: flex;
+    background-color: rgb(201, 143, 36);
+}
+.eight  h4{
+    font-size: 29px;
+    margin-left: 259px;
+}
+.seven{
+    display: flex;
+    background-color: rgb(91, 14, 114);
+    align-items: center;
+}
+.seven h4{
+    font-size: 29px;
+    margin-left: 40px;
+}
