@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration Page</title>
+    <link rel="icon" href="https://img.icons8.com/ios/50/000000/chat--v1.png" />
+    <link rel="stylesheet" href="./mar-01-assesment1.css">
+</head>
+
+<body>
+    <form onSubmit="checkPassword(this)">
+        
+        <div class="form-title">
+            <h3>Sign up with your email</h3>
+            <h6>Already have an account?<a href="#"> Sign in</a></h6>
+        </div>
+        <input type="name" size="40" placeholder="Enter your first name" pattern="[a-zA-Z]+" required />
+        <input type="name" size="40" placeholder="Enter your last name" pattern="[a-zA-Z]+" required />
+        <input type="email" name="email" placeholder="Enter your email" autocomplete="email" required>
+        <input type="password" name="password1" placeholder="Enter your password" autocomplete="current-password"
+            required>
+        <input type="password" name="password2" placeholder="Confirm your password" autocomplete="current-password"
+            required>
+        <button>Submit</button>
+
+
+        <input type="checkbox" name="check">I agree to the terms and conditions
+
+    </form>
+    <script src="./mar-01-assesment1.js"></script>
+</body>
+
+</html>
