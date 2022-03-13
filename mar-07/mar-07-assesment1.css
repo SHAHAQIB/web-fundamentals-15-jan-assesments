@@ -1,0 +1,67 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+}
+.box{
+    
+    width: 460px;
+    border-radius: 30px;
+}
+.container{
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHj5cV5SzIoxPb_dmvHmw9Nwrgl2-YkqmttA&usqp=CAU);
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    width: 460px;
+}
+.container h1{
+    font-family: 'New Rocker', cursive;
+}
+.container h4{
+    font-family: 'Gochi Hand', cursive;
+}
+button{
+    cursor: pointer;
+    background: linear-gradient(rgb(252, 13, 5),rgb(83, 1, 236));
+    color: rgb(248, 242, 242);
+    border-radius: 20px;
+    margin-left: 10%;
+    height: 50px;
+    width: 40px;
+}
+button:hover{
+    cursor: pointer;
+    color: rgb(101, 3, 212);
+}
+#inputField{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSexqeKz8ujvH7nTCsM-d4oGaLgtMdoY25Ahg&usqp=CAU);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 260px;
+    height: 40px;
+    border: 1px dashed rgb(248, 6, 6);
+    outline: none;
+}
+#addToDo{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(247, 7, 7);
+    border: 2px solid rgb(235, 2, 146);
+}
+.paragraph-styling{
+    background: url(https://i.pinimg.com/736x/fd/fb/ba/fdfbba317609890b779fd14cd3ac3823.jpg);
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 13px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: progress    ;
+}
+.to-dos {
+    margin-top: 25px;
+}

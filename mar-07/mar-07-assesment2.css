@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    font-family: 'Baloo 2', cursive;
+    background: radial-gradient(circle, rgba(91,105,177,0.9699230033810399) 0%, rgba(0,0,0,1) 100%);
+    background-color: black;
+}
+.bottom-bar{
+    background-color: black;
+    position: absolute;
+    top: 86%;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+}
+.search-img-container{
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    overflow: hidden;
+    width: 13vw;
+    padding-top: 20px;
+}
+.contaienr-home-scroll{
+    position: static;
+}
