@@ -1,29 +1,386 @@
-body{
+body
+{
     margin: 0px;
-    text-align: center;
-    color: white;
-    background-size: cover;
-    font-family: 'Baloo 2', cursive;
-    background: radial-gradient(circle, rgba(91,105,177,0.9699230033810399) 0%, rgba(0,0,0,1) 100%);
-    background-color: black;
+    background: rgb(195,174,238);
+    background: radial-gradient(circle, rgba(195,174,238,1) 0%, rgba(209,38,38,1) 100%);
+
 }
-.bottom-bar{
-    background-color: black;
-    position: absolute;
-    top: 86%;
-    display: inline-flexbox;
-    flex-wrap: wrap;
-}
-.search-img-container{
-    margin-top: 10px;
-    margin-left: 15px;
+.main-div
+{
+    height: 800px;
+    width: 450px;
+    background-color:grey;
+    border-radius: 50px;
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 2px;
-    overflow: hidden;
-    width: 13vw;
+    margin-left: 550px;
+    box-shadow:  inset 10px 5px 15px 15px  white;
+}
+.top
+{
+    display: flex;
+    justify-content: space-evenly
+}
+.top>.time
+{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.top>.line
+{
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 180px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.main-div img
+{
+    height: 40px;
+    margin-left: -150px;
+    margin-top: 10px;
+}
+.top-middle
+{
+    padding-top: 20px;
+    margin-left: 200px;
+}
+.top-middle>.camera
+{
+    height: 30px;
+    margin-right: 100px;
+}
+.top-middle>.text
+{
+    display: inline-block;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: -10px;
+}
+.top-middle>.send
+{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: 200px;
+    position: relative;
+    top: -42px;
+}
+.stories
+{
+    position: relative;
+    top:-50px;
+}
+.stories>p
+{
+    margin-left: 50px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.stories>img
+{
+    height: 50px;
+    position: relative;
+    left:370px;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+.content
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-top: -250px;
+    position: relative;
+    left:120px;
+    top:120px;
+}
+.top-user img
+{
+    border-radius: 50%;
+    border: 5px solid red;
+}
+.top-user a
+{
+    display: inline-block;
+    position: relative;
+    top:-20px;
+    width: 150px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+.upload-image img
+{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top:60px;
+    left:-70px;
+    border-radius: 5px;
+}
+.l-c-s a>img
+{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+    left: -239px;
+}
+.l-c-s p
+{
+    position: relative;
+    left: -220px;
+    top:50px;
+    font-weight: bolder;
+}
+.bottom
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-top: 90px;
+    position: sticky;
+    top:0px;
+    border-top: 1px solid black;
+    width:450px ;
+}
+.bottom img
+{
+    height: 25px;
+    display: inline-block;
+    margin-left: 20px;
+    padding-left: 80px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.d-none
+{
+    display: none;
+}
+.search-div
+{
+    height: 800px;
+    width: 450px;
+    background-color:grey;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 550px;
+    box-shadow:  inset 10px 5px 15px 15px  white;
+}
+.activity-div
+{
+    height: 800px;
+    width: 450px;
+    background-color:grey;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 550px;
+    box-shadow:  inset 10px 5px 15px 15px  white;
+}
+.profile-div
+{
+    height: 800px;
+    width: 450px;
+    background-color:grey;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 550px;
+    box-shadow:  inset 10px 5px 15px 15px  white;
+}
+.search-div .top 
+{
+    display: flex;
+    justify-content: space-evenly
+}
+.search-div .top>.time
+{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.search-div .top>img
+{
+    height: 40px;
+    margin-left: -150px;
+    margin-top: 10px;
+}
+.search-div .top-search
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 550px;
+    
+}
+.top-search>.search-img
+{
+    display: inline-block;
+    background-color: #f8f8f8;
+    /* position: relative;
+    /* top:45px; */
+    /* left: 100px; */ 
+    height: 30px;
+    padding-left: 10px;
+}
+.top-search .seacrh-img>img
+{
+    position: relative;
+    top:30px;
+    left: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.top-search>input
+{
+    display:inline-block;
+    height: 50px;
+    background-color: #f8f8f8;
+    border: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+.top-search>input[placeholder="Search here"]
+{
+    padding-left:40px;
+    font-size: larger;
+}
+.top-search .image-explorer>img
+{
+    display: inline-block;
+    position: relative;
+    top:100px;
+    height: 100px;
+    width: 200px;
+    left: -250px;
     padding-top: 20px;
 }
-.contaienr-home-scroll{
-    position: static;
+.top-search .bottom
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-top: 90px;
+    position: relative;
+    top:530px;
+    left:-573px;
+    border-top: 1px solid black;
+    width:450px ;
+}
+.top-search .bottom>img
+{
+    height: 25px;
+    display: inline-block;
+    margin-left: 20px;
+    /* padding-left: 80px; */
+    padding-top: 50px;
+    cursor: pointer;
+}
+.search-div .top 
+{
+    display: flex;
+    justify-content: space-evenly
+}
+.activity-div .top>.time
+{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.activity-div .top>img
+{
+    height: 40px;
+    margin-left: -150px;
+    margin-top: 10px;
+}
+.activity-div .likes .likes-1>img
+{
+    position: relative;
+    top:40px;
+    left: 30px;
+    height: 50px;
+    padding-top: 30px;
+}
+.activity-div .likes .likes-1>a
+{
+    position: relative;
+    top:30px;
+    left:50px;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+.profile-div .top>.time
+{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.profile-div .top>img
+{
+    height: 40px;
+    margin-left: -150px;
+    margin-top: 10px;
+}
+.profile-user
+{
+    position: relative;
+    top:50px;
+    left: 20px;
+}
+.profile-user span img
+{
+    height: 80px;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+.profile-user .all-info 
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:-70px;
+    left: 80px;
+    font-weight: bolder;
+    font-size: large;
+
+}
+.profile-user .all-info a
+{
+    position: relative;
+    left:20px;
+}
+.profile-user .all-info p
+{
+    position: relative;
+    left:-5px;
+}
+.profile-user .all-info button
+{
+    position: relative;
+    left: -250px;
+    top:50px;
+    height: 20px;
+    border: none;
+    background-color: blue;
+    cursor: pointer;
+}
+.profile-user-image .image-1 img
+{
+    height: 100px;
+    width: 150px;
+    padding-left: 50px;
+    margin-top: 30px;
 }
