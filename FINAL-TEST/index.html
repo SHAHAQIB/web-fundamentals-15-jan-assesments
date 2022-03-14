@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather report</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+     <div id="popup" class="show_popup">
+        <br>
+        <br>
+        <br>
+        <h2>to check weather please search your city name</h2>
+        <button id="close_popup">❌</button>
+        <div>
+        <input type="text" placeholder="ex- srinagar" id="location_feild"/>
+        <button id="submit_btn">Click</button> 
+    </div>
+    </div>
+<header id="header">
+    <span>Weather Report</span>
+<div>
+    <input type="text" placeholder="city" id="search_feild" />
+    <button id="search_btn">🔍</button>
+</div>
+</header>
+<section id="parent-container">
+ <div id="default">
+ </div>
+<div id="seond_default">
+
+</div>
+
+</section>
+
+    <script src="./index.js"></script>
+</body>
+</html>

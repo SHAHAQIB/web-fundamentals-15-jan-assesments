@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    font-family:'Roboto', sans-serif;
+}
+header{
+   
+    text-align: center;
+    padding-top: 1rem;
+    border-bottom: 1px solid #874356;
+    height: 8vh;
+    background-color: #eb1793;
+    box-shadow: 1px 4px lightgray;
+  
+
+}
+header > span{
+    float: left;
+    padding-left: 1rem;
+}
+header > input{
+    padding: 12px;
+    width: 30%;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather-card{
+    margin-top: 3rem;
+    text-align: start;
+    box-shadow:0px  2px 8px gray ;
+    border: 1px solid #990c34;
+    font-weight: bold;
+    background-color: #22e907;
+    
+}
+.weather-card > p{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 0.5rem;
+    
+    
+}
+.weather-card  > img{
+     display: block; 
+    height: 100px;
+    text-align: center;
+    background-position: center;
+    transform: translateY(-30%);
+    padding-left: 6rem;
+    padding-right: 3rem;
+
+} 
+p:nth-child(7){
+    border-bottom: none;
+}
+p:first-child{
+    color: red;
+}
+.show_popup{
+    text-align: center;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    bottom: 10%;
+    right: 10%;
+    background-color: #03fff2;
+    display: none;
+}
+#close_popup{
+    float: right;
+    transform: translateY(-7.8rem);
+    outline: transparent;
+    border: transparent;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+.hide{
+    display: none;
+}
+header > div{
+   
+} 
+header > div>input{
+    padding: 13px;
+    width: 30%;
+     outline: transparent;
+   
+}
+header > div > button{
+    padding: 11.5px;
+    transform: translate(-5px,1.5px);
+    background-color: #da0c46;
+    outline: none;
+    border-color: transparent;
+    cursor: pointer;
+   
+   
+}
+.show_popup > div{
+   
+}
+.show_popup > div >  input{
+    padding: 13px;
+    outline: transparent;
+    width: 20%;
+}
+.show_popup > div > button{
+    padding: 12.5px;
+    transform: translate(-5px,0.5px);
+    background-color: #da0c46;
+    outline: none;
+    border-color: transparent;
+    cursor: pointer;
+}
